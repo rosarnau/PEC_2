@@ -5,8 +5,18 @@ $font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
   "Segoe UI Symbol";
 $font-family-serif: "Georgia", "Times New Roman", serif;
 
-$uoc-corporate: #000078;
-$uoc-masterbrand: #73edff;
-$uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
+/*variables generales*/
+$link-color:rgb(142, 75, 46);
+$link-color-visited:#9e9e9e;
+$color:darkblue;
+
+
+$form-color: rgb(255, 255, 255);
+$item-color: rgb(15, 15, 15);
+
+
+
 
 $mqMinWidth: 420px;
+
+

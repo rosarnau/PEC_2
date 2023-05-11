@@ -1,0 +1,41 @@
+.flex-container{
+  display:flex;
+  flex-direction:row; 
+  flex-wrap: wrap; 
+  justify-content:center; 
+  width:120vh;
+  height:85vh;
+  margin-left:200px; 
+  
+  }
+  
+  .flex-box{
+  align-items: center;
+  margin: 10px;
+  font-size: 20px;
+  }
+
+  .flex-box--box1{
+    width: 30vh;
+    height: 30vh;
+    margin-top:10px;
+    margin-right:100px;
+  }
+  .flex-box--box2{
+    width: 30vh;
+    height: 30vh;    
+  }
+  .flex-box--box3{
+    width: 30vh;
+    height: 30vh;
+    margin-left: 70px; 
+  }
+  
+  @media (min-width: $mqMinWidth){
+  .flex-container{
+    flex-direction:column;  
+    }
+    .flex-box div{
+      flex-basis: 100%;
+    }
+ }

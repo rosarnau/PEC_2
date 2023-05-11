@@ -1,0 +1,16 @@
+.contenedor-article {
+  display: grid;
+  grid-template-areas: "container container";
+  min-height: 100px;
+}
+
+.contenedor-article--chess {
+  grid-area: chess;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+}
+
+.contenedor-article--text {
+  grid-area: text;
+
+  margin-left: 400px;
+} /*# sourceMappingURL=container.css.map */

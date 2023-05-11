@@ -1,0 +1,168 @@
+/**
+ * Use this file to import partials.
+ * Do not include SCSS code in this file.
+ */
+/**
+ * Import variables
+ */
+/**
+ * Import npm dependencies
+ * see: https://v2.parceljs.org/features/module-resolution/
+ * see commented examples below
+ */
+/**
+ * Import layouts
+ * It's a best practice to use a different partial for each page
+ */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  padding: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  line-height: 24px;
+  background-image: url("../images/image_1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.uoc-container {
+  max-width: 700px;
+  height: 120vh;
+  margin: auto;
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  grid-template-rows: repeat(7, 150px);
+  border: 10px solid yellow;
+  color: rgb(15, 15, 15);
+  text-align: center;
+}
+
+.item1 {
+  font-size: 30px;
+  background-color: white;
+}
+
+.item2 {
+  background-color: black;
+}
+
+.item3 {
+  font-size: 30px;
+  background-color: white;
+  color: rgb(15, 15, 15);
+}
+
+.item4 {
+  background-color: black;
+}
+
+.item6 {
+  background-color: white;
+}
+
+.item7 {
+  background-color: black;
+  color: orange;
+  font-size: 18px;
+}
+
+.item8 {
+  background-color: white;
+}
+
+.item12 {
+  grid-column: span 2;
+}
+
+.uoc-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
+  max-width: 200px;
+  height: auto;
+}
+@media (min-width: 420px) {
+  .uoc-logo {
+    max-width: none;
+  }
+}
+
+.uoc-title {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+@media (min-width: 420px) {
+  .uoc-title {
+    font-size: 36px;
+  }
+}
+
+.uoc-footer {
+  margin-top: 1.5rem;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.uoc-container {
+  max-width: 700px;
+  height: 120vh;
+  margin: auto;
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  grid-template-rows: repeat(7, 150px);
+  border: 10px solid yellow;
+  color: rgb(15, 15, 15);
+  text-align: center;
+}
+
+.item1 {
+  font-size: 30px;
+  background-color: white;
+}
+
+.item2 {
+  background-color: black;
+}
+
+.item3 {
+  font-size: 30px;
+  background-color: white;
+  color: rgb(15, 15, 15);
+}
+
+.item4 {
+  background-color: black;
+}
+
+.item6 {
+  background-color: white;
+}
+
+.item7 {
+  background-color: black;
+  color: orange;
+  font-size: 18px;
+}
+
+.item8 {
+  background-color: white;
+}
+
+.item12 {
+  grid-column: span 2;
+}
+
+/**
+ * Do NOT include anything else in this file!
+ *//*# sourceMappingURL=main.css.map */
